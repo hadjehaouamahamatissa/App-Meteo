@@ -125,9 +125,8 @@ Créez un fichier .env à la racine du projet :
 ```
 .env
 PORT=3000
-OPENWEATHER_API_KEY=votre_cle_api_openweather_ici
-NODE_ENV=development
-Villes supportées
+OPENWEATHER_API_KEY=la_cle_api_openweather_ici
+
 ```
 ### L'application supporte actuellement 8 villes tchadiennes :
 
@@ -199,7 +198,7 @@ Cette commande utilise nodemon pour redémarrer automatiquement le serveur lors 
 .env
 NODE_ENV=production
 PORT=3000
-OPENWEATHER_API_KEY=votre_cle_api_production
+OPENWEATHER_API_KEY=la_cle_api_production
 ```
 
 
