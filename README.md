@@ -48,7 +48,8 @@ Informations complètes :
 
 ### Apercu de maquettes de l'interface 
 - Des captures d'écran des différentes vues de l'application sont disponibles pour visualiser le design et l'expérience utilisateur.
-[Uploading Capture d’écran du 2025-10-15 10-58-05.png…]()
+<img width="1848" height="915" alt="Capture d’écran du 2025-10-15 10-58-05" src="https://github.com/user-attachments/assets/1f6e5bef-2dfc-4ce7-ac2b-08dbbfa5b680" />
+
   
 
 ## Technologies utilisées
