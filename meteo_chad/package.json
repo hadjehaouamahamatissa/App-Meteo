@@ -1,0 +1,24 @@
+{
+  "name": "meteo-tchad",
+  "version": "1.0.0",
+  "description": "Application météo pour les villes tchadiennes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.10"
+  },
+  "keywords": [
+    "météo",
+    "tchad",
+    "weather",
+    "api"
+  ],
+  "author": "Hadje Haoua Mahamat Issa",
+  "license": "MIT"
+}
