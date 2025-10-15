@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Météo Tchad - Prévisions sur 7 jours</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-sun"></i> Météo Tchad</h1>
+            <p class="tagline">Prévisions météorologiques en temps réel pour les principales villes tchadiennes</p>
+            <div class="api-info">
+                <i class="fas fa-info-circle"></i> Données météo en temps réel via OpenWeatherMap API | Carte interactive avec géolocalisation
+            </div>
+        </header>
+
+        <div class="app-container">
+            <div class="sidebar">
+                <div class="city-selector">
+                    <h2><i class="fas fa-map-marker-alt"></i> Villes du Tchad</h2>
+                    <div class="city-list">
+                        <!-- Les boutons des villes seront générés par JavaScript -->
+                    </div>
+                </div>
+
+                <div class="location-section">
+                    <h2><i class="fas fa-location-arrow"></i> Ma Position</h2>
+                    <button class="location-btn" id="locate-me">
+                        <i class="fas fa-crosshairs"></i> Me localiser automatiquement
+                    </button>
+                    <div id="location-status" class="location-status"></div>
+                </div>
+
+                <div class="map-container">
+                    <div class="map-header">
+                        <h2><i class="fas fa-map"></i> Carte du Tchad</h2>
+                    </div>
+                    <div id="map"></div>
+                </div>
+            </div>
+
+            <div class="weather-display">
+                <div class="current-weather">
+                    <div class="city-info">
+                        <h2>Sélectionnez une ville</h2>
+                        <div class="date">Chargement...</div>
+                    </div>
+                    <div class="weather-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="temperature">--°C</div>
+                    <div class="weather-condition">--</div>
+                </div>
+
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <div class="detail-value" id="humidity">--%</div>
+                        <div class="detail-label">Humidité</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-value" id="wind">-- km/h</div>
+                        <div class="detail-label">Vent</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-value" id="pressure">-- hPa</div>
+                        <div class="detail-label">Pression</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-value" id="feels-like">--°C</div>
+                        <div class="detail-label">Ressenti</div>
+                    </div>
+                </div>
+
+                <div class="loading">
+                    <p>Sélectionnez une ville pour afficher les prévisions</p>
+                </div>
+
+                <div class="forecast">
+                    <!-- Les prévisions sur 7 jours seront générées par JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Application Météo Tchad &copy; 2025 Create by HDMI - Données météo par <a href="https://openweathermap.org/" style="color: white;">OpenWeatherMap</a> | Carte par <a href="https://leafletjs.com/" style="color: white;">Leaflet</a></p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
