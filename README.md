@@ -52,8 +52,8 @@ Informations complètes :
 <img width="1848" height="915" alt="Capture d’écran du 2025-10-15 10-58-05" src="https://github.com/user-attachments/assets/1f6e5bef-2dfc-4ce7-ac2b-08dbbfa5b680" />
 
 - Capture d'ecran de l'interphase complète
-  
-<img width="1848" height="915" alt="Capture d’écran du 2025-10-15 10-58-05" src="https://github.com/user-attachments/assets/7d45bd16-d4ce-40bc-b651-0201be044483" />
+
+  <img width="1848" height="898" alt="Capture d’écran du 2025-10-15 10-57-30" src="https://github.com/user-attachments/assets/4ae72f77-c7f4-44cc-9578-b6a3459ca61b" />
 
   
 
