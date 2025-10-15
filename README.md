@@ -46,9 +46,15 @@ Informations complètes :
 - Carte de geolocalisations: https://unpkg.com/leaflet@1.9.4/dist/leaflet
 ```
 
+### Apercu de maquettes de l'interface 
+- Des captures d'écran des différentes vues de l'application sont disponibles pour visualiser le design et l'expérience utilisateur.
+[Uploading Capture d’écran du 2025-10-15 10-58-05.png…]()
+  
+
 ## Technologies utilisées
 
-### Backend
+### Backend!
+
 
 - Node.js - Environnement d'exécution JavaScript
 
