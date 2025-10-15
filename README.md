@@ -42,6 +42,7 @@ Informations complètes :
 - Design moderne : Interface utilisateur intuitive et esthétique
 
 - Temps réel : Données météo actualisées
+
 - Carte de geolocalisations: https://unpkg.com/leaflet@1.9.4/dist/leaflet
 ```
 
