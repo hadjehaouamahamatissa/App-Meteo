@@ -83,14 +83,14 @@ OpenWeatherMap - Service de données météorologiques
 ### Étapes d'installation
 
 
+- Cloner le repository
 ```
-Cloner le repository
 bash
-git clone <votre-repository>
-cd meteo-tchad
+git clone git@github.com:hadjehaouamahamatissa/App-Meteo.git
+cd meteo-chad
 
-- Installer les dépendances
 ``` 
+- Installer les dépendances
 
 bash
 ```
@@ -104,7 +104,7 @@ cp .env.example .env
 Configurer votre clé API OpenWeatherMap
 ```
 
-- Créer un compte sur OpenWeatherMap
+### Créer un compte sur OpenWeatherMap
 
 Obtenir une clé API gratuite
 
